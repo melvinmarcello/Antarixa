@@ -1,0 +1,29 @@
+body{
+    font-family: 'Varela Round', sans-serif;
+}
+/* Nav */
+nav{
+    color: whitesmoke !important;
+}
+.navbar-light a.navbar-brand {
+    font-size: 32px;
+    color: white;
+}
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+/* Jumbotron */
+.jumbotron {
+    background-image: url(assets/outer-1658213261747-1848.jpg);
+    background-size: cover;
+    height: 640px;
+    text-align: center;
+}
+.jumbotron .btn, span {
+  display: none;
+}
+.jumbotron .btn:hover {
+  background-color: white;
+}
